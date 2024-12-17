@@ -5,7 +5,7 @@ function App() {
   Variables to store and set the length, numbers, chars. 
   Password and setPassword is used because we need a defult value in password field on window load.
   */
-  const [length, setlength] = useState(5);
+  const [length, setlength] = useState(6);
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");
@@ -78,8 +78,8 @@ function App() {
           <div className="flex items-center gap-x-1">
             <input
               type="range"
-              min={8}
-              max={100}
+              min={6}
+              max={25}
               value={length}
               className="cursor-pointer"
               onChange={(e) => {
