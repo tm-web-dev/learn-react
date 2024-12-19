@@ -74,7 +74,7 @@ export default function Footer() {
                   <span className="text-sm text-gray-500 sm:text-center">
                       © 2023
                       <a href="#" className="hover:underline">
-                          hiteshchoudhary
+                          TM Web Dev
                       </a>
                       . All Rights Reserved.
                   </span>
