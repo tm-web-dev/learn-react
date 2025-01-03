@@ -11,6 +11,19 @@ The useState hook in React is a special function that lets you add and manage st
 
 It allows you to store a value (like a variable) and update it when needed, while also making React re-render the component whenever the value changes.
 
+## useCallback React Hook
+
+The useCallback hook in React is a tool to remember a function so it doesn’t get recreated every time the component re-renders. This is useful when you want to optimize performance, especially when passing functions as props to child components or using them in dependencies.
+
+**Why use useCallback?**
+
+useCallback is a React Hook that lets you cache a function definition between re-renders.
+
+Every time a component re-renders, all the functions inside it are recreated. If you pass a recreated function to a child component, it can cause unnecessary re-renders, even if the function behaves the same. useCallback helps you avoid this by "caching" the function and only recreating it if its dependencies change.
+
+## useEffect React Hook
+## useRef React Hook
+
 # What is Fiber in React?
 
 Fiber is the new reconciliation engine in React, introduced to improve rendering performance and make React apps smoother. 
