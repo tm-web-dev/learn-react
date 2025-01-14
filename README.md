@@ -22,7 +22,16 @@ useCallback is a React Hook that lets you cache a function definition between re
 Every time a component re-renders, all the functions inside it are recreated. If you pass a recreated function to a child component, it can cause unnecessary re-renders, even if the function behaves the same. useCallback helps you avoid this by "caching" the function and only recreating it if its dependencies change.
 
 ## useEffect React Hook
+
+useEffect is a React Hook that lets you synchronize a component with an external system.
+
+The useEffect hook in React is used to handle side effects in your components, such as fetching data, updating the DOM, or setting up subscriptions. It's called inside a functional component to manage tasks that happen outside of the React rendering process.
+
 ## useRef React Hook
+
+useRef is a React Hook that lets you reference a value that’s not needed for rendering.
+
+The useRef hook in React is used to create a reference to a DOM element or a value that persists across renders without causing the component to re-render when it changes. It's a handy tool for accessing and manipulating DOM elements directly or keeping track of mutable values.
 
 # What is Fiber in React?
 
