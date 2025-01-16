@@ -33,6 +33,12 @@ useRef is a React Hook that lets you reference a value that’s not needed for r
 
 The useRef hook in React is used to create a reference to a DOM element or a value that persists across renders without causing the component to re-render when it changes. It's a handy tool for accessing and manipulating DOM elements directly or keeping track of mutable values.
 
+## useId React Hook
+
+useId is a React Hook for generating unique IDs that can be passed to accessibility attributes.
+
+The useId hook in React is used to generate unique IDs that are stable across server and client rendering. It's especially useful for accessibility purposes, such as associating form elements with their labels, or for ensuring unique keys in a list.
+
 # What is Fiber in React?
 
 Fiber is the new reconciliation engine in React, introduced to improve rendering performance and make React apps smoother. 
