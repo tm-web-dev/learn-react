@@ -39,6 +39,8 @@ useId is a React Hook for generating unique IDs that can be passed to accessibil
 
 The useId hook in React is used to generate unique IDs that are stable across server and client rendering. It's especially useful for accessibility purposes, such as associating form elements with their labels, or for ensuring unique keys in a list.
 
+### ⚠️ Do not call useId to generate keys in a list. Keys should be generated from your data.
+
 # What is Fiber in React?
 
 Fiber is the new reconciliation engine in React, introduced to improve rendering performance and make React apps smoother. 
